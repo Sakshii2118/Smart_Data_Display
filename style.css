@@ -1,0 +1,61 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fefefe;
+  padding: 20px;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+  color: black;
+}
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#filters select, #filters input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+#top-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.book-card {
+  width: 250px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,1);
+}
+
+.book-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.book-card .content {
+  padding: 15px;
+}
+
+.book-card h3 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.book-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
