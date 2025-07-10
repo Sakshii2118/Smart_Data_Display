@@ -34,8 +34,9 @@ smart-data-display/
 ├── books.json ← 50 Books data (structured JSON)
 ├── full_books.json ← Whole book data (structured JSON)
 ├── index.html ← Main web interface
-├── style.css ← Custom styles
 ├── script.js ← JavaScript logic
+├── style.css ← Custom styles
+
 
 ```
 
