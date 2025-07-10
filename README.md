@@ -30,12 +30,13 @@ It also allows users to **search** and **filter** by **Author**, **Year**, and *
 
 ```
 smart-data-display/
-├── books.json ← 50 Books data (structured JSON)
-├── index.html ← Main web interface
 ├── Popular-Books.csv ← Full Book data (csv)
+├── books.json ← 50 Books data (structured JSON)
+├── full_books.json ← Whole book data (structured JSON)
+├── index.html ← Main web interface
 ├── style.css ← Custom styles
 ├── script.js ← JavaScript logic
-├── full_books.json ← Whole book data (structured JSON)
+
 ```
 
 ---
